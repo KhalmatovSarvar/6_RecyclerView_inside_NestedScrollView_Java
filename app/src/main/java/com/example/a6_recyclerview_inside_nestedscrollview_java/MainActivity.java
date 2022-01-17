@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
     private void refreshAdapter(List<Member> members) {
         CustomAdapter adapter = new CustomAdapter(context,members);
         recyclerView.setAdapter(adapter);
-        recyclerView.setNestedScrollingEnabled(false);
+//        recyclerView.setNestedScrollingEnabled(false);
 
     }
 
